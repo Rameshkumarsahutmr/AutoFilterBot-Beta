@@ -19,7 +19,7 @@ PORT = int(environ.get('PORT', '8080'))
 
 # Bot pics and stickers
 STICKERS = (environ.get('STICKERS', 'CAACAgIAAxkBAAEGm9hjhf69CtQmXoeQ2HidYCGBFeZ4gAACxgEAAhZCawpKI9T0ydt5RysE CAACAgIAAxkBAAEGm9pjhf7I9jCDh3PpkocMNFcPJfisvwAC0wADVp29CvUyj5fVEvk9KwQ CAACAgIAAxkBAAEGm9xjhf7SH4Yc8EP5yI4e8BTH968ClwACGAADDbbSGX671giQDJU8KwQ')).split()
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5a56824f10a6c46890b79.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/3aa50edbac70ff1d9ee11.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg https://telegra.ph/file/5a56824f10a6c46890b79.jpg')).split()
 
 # Bot Admins
 ADMINS = [int(admins) if id_pattern.search(admins) else admins for admins in environ.get('ADMINS', '1221342499').split()]
