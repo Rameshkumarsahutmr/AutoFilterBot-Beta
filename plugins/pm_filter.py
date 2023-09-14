@@ -560,8 +560,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_caption = files.caption
         )
         btn = [[
-            InlineKeyboardButton('⚡️ Updates Channel ⚡️', url=UPDATES_LINK),
-            InlineKeyboardButton('🔥 Support Group 🔥', url=SUPPORT_LINK)
+            InlineKeyboardButton('⚡️ Channel ⚡️', url=UPDATES_LINK),
+            InlineKeyboardButton('🔥 Group 🔥', url=SUPPORT_LINK)
         ]]
         await query.message.delete()
         await client.send_cached_media(
@@ -622,7 +622,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "my_owner":
         buttons = [[
             InlineKeyboardButton('« ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/Hansaka_Anuhas')
+            InlineKeyboardButton('☎️ ᴄᴏɴᴛᴀᴄᴛ', url='https://t.me/being_ram_esh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -635,7 +635,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‼️ ʜᴏᴡ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ sʜᴏʀᴛɴᴇʀ ‼️', callback_data='howshort')
         ],[
             InlineKeyboardButton('≼ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('💬 ʜᴇʟᴘ', url="https://telegram.me/SL_Bots_Support"),
+            InlineKeyboardButton('💬 ʜᴇʟᴘ', url="https://t.me/+ZrS7H52Qeik0NjM1"),
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
