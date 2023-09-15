@@ -61,7 +61,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "onepagelink.in")
 SHORTLINK_API = environ.get("SHORTLINK_API", "73503920d1d22e238fa262d3b4e5cfade4552ec9")
 WELCOME_TEXT = environ.get("WELCOME_TEXT", "Hello {mention}, Welcome to {title} group!")
-TUTORIAL = environ.get("TUTORIAL", "https://youtu.be/IJXStM-YzOU?si=q42vbb5LYTi2-gk2")
+TUTORIAL = environ.get("TUTORIAL", "https://film4mobi.eu.org/how-to-download/")
 
 # stream features vars
 F2LINK_C = int(environ.get("F2LINK_C", "-1001696019751"))
