@@ -65,8 +65,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://film4mobi.eu.org/how-to-download/")
 
 # stream features vars
 F2LINK_C = int(environ.get("F2LINK_C", "-1001905411043"))
-ON_DWNLD = environ.get("ON_DWNLD", "filestreamingv2-d1ff555114af.herokuapp.com")
-ON_WATCH = environ.get("ON_WATCH", "filestreamingv2-d1ff555114af.herokuapp.com")
+ON_DWNLD = environ.get("ON_DWNLD", "file2linkv2-a05ed0b1c10d.herokuapp.com")
+ON_WATCH = environ.get("ON_WATCH", "file2linkv2-a05ed0b1c10d.herokuapp.com")
                            
 # Log
 LOG_STR = "Current Cusomized Configurations are:-\n"
